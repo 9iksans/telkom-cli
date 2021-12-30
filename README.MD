@@ -71,7 +71,7 @@ User can also convert the file into the desired destination with -o or --output 
 
 
 ```bash
-    $ telkom /var/log/nginx/error.log -o /Users/iksans/Downloads/error.text
+    $ telkom /var/log/nginx/error.log -o /Users/iksans/Downloads/error.txt
 ```
 or 
 
