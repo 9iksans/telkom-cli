@@ -58,7 +58,7 @@ The example of how to use it will be explained bellow
 
 - Converting the log file to txt format
 ```bash
-    $ telkom /var/log/nginx/error.log -t json
+    $ telkom /var/log/nginx/error.log -t text
 ```
 
 The default conversion if user doesn't fill the option if -t or --template is plain text, like the example bellow
