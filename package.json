@@ -1,0 +1,31 @@
+{
+  "name": "@iksans/telkom-test",
+  "version": "1.0.0",
+  "description": "A CLI Command for Telkom Test",
+  "main": "src/index.js",
+  "bin": {
+    "@iksans/telkom-test": "bin/telkom",
+    "telkom": "bin/telkom"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli, telkom"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "arg": "^5.0.1",
+    "esm": "^3.2.25",
+    "figlet": "^1.5.2",
+    "fs": "^0.0.1-security",
+    "inquirer": "^8.2.0",
+    "listr": "^0.14.3",
+    "ncp": "^2.0.0",
+    "util": "^0.12.4"
+  }
+}
